@@ -1,10 +1,8 @@
 # Computer Vision
-Homework #1
-
-Due: Tu 02/13/18 11:59 PM
+K- Means Segmentation
 
 1. Kmeans Segmentation (Grey Scale):
-(5 Pts.) Write code to perform segmentation of a grey scale image using KMeans clustering
+ Write code to perform segmentation of a grey scale image using KMeans clustering
 
   - Starter code available in directory Segmentation/
   - Segmentation/KMeans.py: One is required to edit the functions "segmentation_grey". You are welcome to add more function or add nested functions with in the function.
@@ -22,7 +20,7 @@ Due: Tu 02/13/18 11:59 PM
   
 -------------
 2. Kmeans Segmentation (Color):
-(5 Pts.) Write code to perform segmentation on a color image using KMeans clustering
+ Write code to perform segmentation on a color image using KMeans clustering
 
   - Starter code available in directory Segmentation/
   - Segmentation/KMeans.py: One is required to edit the functions "segmentation_rgb". You are welcome to add more function or add nested functions with in the function.
@@ -39,7 +37,7 @@ Due: Tu 02/13/18 11:59 PM
   - Any output images or files must be saved to "output/" folder (cv_hw1.py automatically does this)
 
 -------------
-3. (5 Pts.) Describe your method and report you findings in your report for each of the implementations (greyscale and color) in assignemnt.
+3. Describe your method and report you findings in your report for each of the implementations (greyscale and color) in assignemnt.
   - Your report should accompany your code. 
   - Include a word/pdf file in the repository.
   - In your report also decribe the following points
@@ -55,7 +53,7 @@ Due: Tu 02/13/18 11:59 PM
 Four images are provided for testing: cirle, fruits, kenny and lemons
 OpenCV: You can use opencv functions to load, display images.
 
-Make sure your final submission is running on circleci. 
+The final submission should run on circleci. 
 The TA will use CircleCI output and your github code for grading. 
 TA will not be able to grade if the code does not run on circle CI.
 
